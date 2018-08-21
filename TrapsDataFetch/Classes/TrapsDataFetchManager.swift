@@ -10,7 +10,7 @@ import UIKit
 
 public class TrapsDataFetchManager: NSObject {
 
- @objc open func trapsData(numberOfRows:NSNumber) -> Array<Any>
+ open func trapsData(numberOfRows:NSNumber) -> Array<Any>
     {
         var aTrapsArray:Array<Any> = Array()
         var aNumberOfRows = numberOfRows.intValue;
