@@ -206,8 +206,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01E16C6212CABFF00D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
 				8897029AB97FD55613E27050B253CF60 /* TrapsDataFetch-umbrella.h in Headers */,
+				E01E16C6212CABFF00D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
