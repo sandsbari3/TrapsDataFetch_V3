@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TrapsDataFetch'
+  s.name             = 'TrapsDataFetch_V3'
   s.version          = '0.1.0'
   s.summary          = 'Test Description.'
   s.swift_version    = '4.0'
