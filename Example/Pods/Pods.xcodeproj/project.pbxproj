@@ -13,12 +13,12 @@
 		972EC55C47C903871A05CD9634BD6418 /* Pods-TrapsDataFetch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 767A1A2A4F6FDE9D6CAB1DDB38CDF1CA /* Pods-TrapsDataFetch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2E2DF5DAFE7D6EA02F99CEBF87C5BDB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD09223C8ED7A35DE2398DDF7B693AE /* ReplaceMe.swift */; };
 		DB6C0C3808B34F81EA0C021A9FAA57E4 /* Pods-TrapsDataFetch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0734EDC9622A4DD6FB1F59ABF4BD55DB /* Pods-TrapsDataFetch_Tests-dummy.m */; };
-		E01E16CA212CB6BF00D7FC2E /* TrapsDataFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16C7212CB6BF00D7FC2E /* TrapsDataFetchManager.swift */; };
-		E01E16CB212CB6BF00D7FC2E /* TrapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16C8212CB6BF00D7FC2E /* TrapObject.swift */; };
-		E01E16CC212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E01E16C9212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h */; };
-		E01E16CD212CB6DD00D7FC2E /* TrapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16C8212CB6BF00D7FC2E /* TrapObject.swift */; };
-		E01E16CE212CB6E000D7FC2E /* TrapsDataFetch-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E01E16C9212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h */; };
-		E01E16CF212CB6E200D7FC2E /* TrapsDataFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16C7212CB6BF00D7FC2E /* TrapsDataFetchManager.swift */; };
+		E01E16E0212CBA3E00D7FC2E /* TrapsDataFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16DD212CBA3E00D7FC2E /* TrapsDataFetchManager.swift */; };
+		E01E16E1212CBA3E00D7FC2E /* TrapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16DE212CBA3E00D7FC2E /* TrapObject.swift */; };
+		E01E16E2212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E01E16DF212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h */; };
+		E01E16E3212CBA4200D7FC2E /* TrapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16DE212CBA3E00D7FC2E /* TrapObject.swift */; };
+		E01E16E4212CBA4500D7FC2E /* TrapsDataFetch-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E01E16DF212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h */; };
+		E01E16E5212CBA4800D7FC2E /* TrapsDataFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E16DD212CBA3E00D7FC2E /* TrapsDataFetchManager.swift */; };
 		E6C53403D59616A10269D46B1DAE9A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +54,9 @@
 		DB6028986E69DE2CDE24F9E5AF917A00 /* TrapsDataFetch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrapsDataFetch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0EBCBB500E8C4F3C085D085FF0FB1F /* TrapsDataFetch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrapsDataFetch.xcconfig; sourceTree = "<group>"; };
 		DE504CA073B57F9EDE422866E87CD6FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E01E16C7212CB6BF00D7FC2E /* TrapsDataFetchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrapsDataFetchManager.swift; path = TrapsDataFetch/Classes/TrapsDataFetchManager.swift; sourceTree = "<group>"; };
-		E01E16C8212CB6BF00D7FC2E /* TrapObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrapObject.swift; path = TrapsDataFetch/Classes/TrapObject.swift; sourceTree = "<group>"; };
-		E01E16C9212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TrapsDataFetch-Swift.h"; path = "TrapsDataFetch/Classes/TrapsDataFetch-Swift.h"; sourceTree = "<group>"; };
+		E01E16DD212CBA3E00D7FC2E /* TrapsDataFetchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrapsDataFetchManager.swift; path = TrapsDataFetch/Classes/TrapsDataFetchManager.swift; sourceTree = "<group>"; };
+		E01E16DE212CBA3E00D7FC2E /* TrapObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrapObject.swift; path = TrapsDataFetch/Classes/TrapObject.swift; sourceTree = "<group>"; };
+		E01E16DF212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TrapsDataFetch-Swift.h"; path = "TrapsDataFetch/Classes/TrapsDataFetch-Swift.h"; sourceTree = "<group>"; };
 		E6C9374158E5F2A4F95D45E4FF5DE1B5 /* TrapsDataFetch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TrapsDataFetch.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAD09223C8ED7A35DE2398DDF7B693AE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TrapsDataFetch/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FEA725D288C84E38DA47311186D2FF0F /* Pods-TrapsDataFetch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrapsDataFetch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 		945B7940A340C9BC9FE645107F30486B /* TrapsDataFetch */ = {
 			isa = PBXGroup;
 			children = (
-				E01E16C8212CB6BF00D7FC2E /* TrapObject.swift */,
-				E01E16C9212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h */,
-				E01E16C7212CB6BF00D7FC2E /* TrapsDataFetchManager.swift */,
+				E01E16DE212CBA3E00D7FC2E /* TrapObject.swift */,
+				E01E16DF212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h */,
+				E01E16DD212CBA3E00D7FC2E /* TrapsDataFetchManager.swift */,
 				FAD09223C8ED7A35DE2398DDF7B693AE /* ReplaceMe.swift */,
 				AD6BA685798AF44E9D3B2D7082A3D8B2 /* Pod */,
 				9AC483D88D9AB590C7AC35D3133B3497 /* Support Files */,
@@ -197,7 +197,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01E16CC212CB6BF00D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
+				E01E16E2212CBA3E00D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
 				972EC55C47C903871A05CD9634BD6418 /* Pods-TrapsDataFetch_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +206,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01E16CE212CB6E000D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
+				E01E16E4212CBA4500D7FC2E /* TrapsDataFetch-Swift.h in Headers */,
 				8897029AB97FD55613E27050B253CF60 /* TrapsDataFetch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,8 +288,8 @@
 			files = (
 				A2E2DF5DAFE7D6EA02F99CEBF87C5BDB /* ReplaceMe.swift in Sources */,
 				5CC82B139D1372F100D23A972B80B731 /* TrapsDataFetch-dummy.m in Sources */,
-				E01E16CD212CB6DD00D7FC2E /* TrapObject.swift in Sources */,
-				E01E16CF212CB6E200D7FC2E /* TrapsDataFetchManager.swift in Sources */,
+				E01E16E3212CBA4200D7FC2E /* TrapObject.swift in Sources */,
+				E01E16E5212CBA4800D7FC2E /* TrapsDataFetchManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6C0C3808B34F81EA0C021A9FAA57E4 /* Pods-TrapsDataFetch_Tests-dummy.m in Sources */,
-				E01E16CA212CB6BF00D7FC2E /* TrapsDataFetchManager.swift in Sources */,
-				E01E16CB212CB6BF00D7FC2E /* TrapObject.swift in Sources */,
+				E01E16E0212CBA3E00D7FC2E /* TrapsDataFetchManager.swift in Sources */,
+				E01E16E1212CBA3E00D7FC2E /* TrapObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
