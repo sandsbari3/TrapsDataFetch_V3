@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TrapsDataFetch_Tests' do
+  pod 'TrapsDataFetch', :path => '../'
+  
+  
+end
