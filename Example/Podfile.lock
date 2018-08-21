@@ -1,0 +1,16 @@
+PODS:
+  - TrapsDataFetch (0.1.0)
+
+DEPENDENCIES:
+  - TrapsDataFetch (from `../`)
+
+EXTERNAL SOURCES:
+  TrapsDataFetch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrapsDataFetch: 047fe6e70be5337a3d75d179bc59a2161bfcdbed
+
+PODFILE CHECKSUM: a8a13d9667731070e331fa84016851d5410400ae
+
+COCOAPODS: 1.5.3

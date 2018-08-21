@@ -1,0 +1,6 @@
+framework module TrapsDataFetch {
+  umbrella header "TrapsDataFetch-umbrella.h"
+
+  export *
+  module * { export * }
+}
