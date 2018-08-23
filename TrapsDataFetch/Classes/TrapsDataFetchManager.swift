@@ -10,16 +10,16 @@ import UIKit
 
 public class TrapsDataFetchManager: NSObject {
 
- open func trapsData(numberOfRows:NSNumber) -> Array<Any>
+ @objc open func trapsData(numberOfRows:Int64) -> Array<Any>
     {
         var aTrapsArray:Array<Any> = Array()
-        var aNumberOfRows = numberOfRows.intValue;
+        var aNumberOfRows = numberOfRows;
         
 
         
-        while numberOfRows != 0 {
+        while aNumberOfRows != 0 {
             
-            let aTrapObject: TrapObject = TrapObject(numberString: numberOfRows.stringValue)
+            let aTrapObject: TrapObject = TrapObject(numberString: String(aNumberOfRows))
             
             let aDictionary: Dictionary = ["trapTitle": aTrapObject.trapTitle,
                                            "firstCount" : aTrapObject.firstCount,
