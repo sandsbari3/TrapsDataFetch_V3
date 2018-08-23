@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrapsDataFetch_V3'
-  s.version          = '0.1.0'
-  s.summary          = 'Test Description.'
+  s.version          = '0.3.0'
+  s.summary          = 'Trying to create a pod.'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
